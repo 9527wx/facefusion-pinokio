@@ -23,7 +23,7 @@ module.exports = () =>
 				method: 'shell.run',
 				params:
 				{
-					message: 'git checkout 3.6.1',
+					message: 'git checkout 3.8.2',
 					path: 'facefusion'
 				}
 			}
