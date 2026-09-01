@@ -25,14 +25,6 @@ module.exports = () =>
 				method: 'shell.run',
 				params:
 				{
-					message: 'git checkout --quiet -- facefusion',
-					path: 'facefusion'
-				}
-			},
-			{
-				method: 'shell.run',
-				params:
-				{
 					message: '{{ self.cmd[local.mode] }}',
 					path: 'facefusion',
 					conda:

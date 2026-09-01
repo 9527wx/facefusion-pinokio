@@ -8,22 +8,14 @@ module.exports = () =>
 				method: 'shell.run',
 				params:
 				{
-					'message': 'git pull'
+					message: 'git pull'
 				}
 			},
 			{
 				method: 'shell.run',
 				params:
 				{
-					message: 'git pull --tags',
-					path: 'facefusion'
-				}
-			},
-			{
-				method: 'shell.run',
-				params:
-				{
-					message: 'git checkout 3.8.2',
+					message: 'git pull',
 					path: 'facefusion'
 				}
 			}
